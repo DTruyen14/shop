@@ -42,7 +42,7 @@ CREATE TABLE `admin_users` (
 --
 
 INSERT INTO `admin_users` (`id`, `name`, `email`, `password`, `level`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'SupperAdmin', 'scodeweb2016@gmail.com', '$2y$10$q3UFgqoa.mt5Yx1dVEBT.ee6CZkLk7p7U4Y.kbYQh6PLJ/mxgenJm', '100', 'LqqsfGhinUkm3Rh5DLiP7EqVKU61F6l0JMU0DhOodMsHeWNfGQ3i4KoGw2zi', '2016-12-05 00:38:38', '2016-12-05 02:46:22');
+(1, 'SupperAdmin', 'admin@gmail.com', '$2y$10$q3UFgqoa.mt5Yx1dVEBT.ee6CZkLk7p7U4Y.kbYQh6PLJ/mxgenJm', '100', 'LqqsfGhinUkm3Rh5DLiP7EqVKU61F6l0JMU0DhOodMsHeWNfGQ3i4KoGw2zi', '2016-12-05 00:38:38', '2016-12-05 02:46:22');
 
 -- --------------------------------------------------------
 
@@ -505,7 +505,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `phone`, `address`, `status`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'Lhson', 'scodeweb2016@gmail.com', '$2y$10$TEY9mtHYRJ4G9oW.6n9D9.5.eHfae7I1po7iNVE8cNMsEORxtzv0m', '0868896944', 'Ho chi minh', 1, 'jFFpU4F9xl8TLtjS6DPBiI8qWugcLLXQWMtRSWx9UtBoB3TrjGpx66X8xMMh', '2016-11-23 20:44:11', '2016-12-17 02:55:05'),
+(1, 'Lhson', 'admin@gmail.com', '$2y$10$TEY9mtHYRJ4G9oW.6n9D9.5.eHfae7I1po7iNVE8cNMsEORxtzv0m', '0868896944', 'Ho chi minh', 1, 'jFFpU4F9xl8TLtjS6DPBiI8qWugcLLXQWMtRSWx9UtBoB3TrjGpx66X8xMMh', '2016-11-23 20:44:11', '2016-12-17 02:55:05'),
 (2, 'viet', 'viet@test.com', '$2y$10$l1kbe4s6eABtFVZqe5UpIese0vCemAMafuRjEPBanY8VIhZJgMUU2', '0868896944', 'dl', 1, NULL, '2016-12-25 21:45:02', '2016-12-25 21:45:02');
 
 --
